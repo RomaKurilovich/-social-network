@@ -1,0 +1,32 @@
+.profileFriends{
+    grid-area: profileFriends
+}
+.oneFriend img{
+    width: 50px;
+    border-radius:5px;
+}
+.oneFriend{
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 1fr ;
+    color: #A7A7C1;
+}
+.allFriend{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.headline{
+    font-size: 18px;
+    color: #A7A7C1;
+    margin-bottom:15px;
+}
+.oneFriend a{
+    text-decoration:none;
+    color: #5765B2;
+}
+.oneFriend a:hover{
+    color:#B29617;
+}
+.pending{
+    width: 100px;
+}

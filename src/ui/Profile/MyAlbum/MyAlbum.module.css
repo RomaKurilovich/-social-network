@@ -1,0 +1,10 @@
+.myAlbum{
+    grid-area: myAlbum;
+}
+.photos img{
+    width: 100px;
+}
+.headline{
+  color: #A7A7C1;
+  font-size:18px;
+}

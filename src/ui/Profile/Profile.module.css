@@ -1,0 +1,28 @@
+.profile{
+    display:grid;
+    grid-template-areas:
+    "nikName"
+    "profileInfo"
+    "myPosts"
+    "profileFriends"
+    "myAlbum";
+    padding:5px;
+}
+@media (min-width: 1200px) {
+	.profile {
+        margin-top:15px;
+        padding: 25px;
+		grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "nikName nikName"
+			"profileInfo profileFriends"
+			"myPosts myAlbum";		
+	}
+}
+.nikName{
+    grid-area: nikName;
+    color : #C5C5E4;
+    font-size: 20px;
+    margin-bottom: 10px;
+      
+}

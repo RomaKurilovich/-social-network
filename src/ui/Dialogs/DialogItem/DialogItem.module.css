@@ -1,0 +1,12 @@
+
+.dialog a{
+    color:#737d8a;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+  .dialog a.active{
+    color: rgb(12, 84, 117);
+    font-size: 18px;
+    
+  }

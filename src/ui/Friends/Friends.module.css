@@ -1,0 +1,5 @@
+.friends{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    padding: 10px;
+}
