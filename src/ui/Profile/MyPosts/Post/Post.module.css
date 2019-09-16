@@ -1,0 +1,23 @@
+.post{
+    border: solid 1px #A7A7C1;
+    padding: 5px;
+    
+}
+.myPostsApp{
+    padding: 5px;
+    color: #A7A7C1;
+}
+.imgPost img{
+    width: 30px;
+    border-radius: 40%;
+}
+.contentPost{
+    padding: 5px;
+}
+.headlinePost{
+    display: flex;
+}
+.nikNamePost{
+    padding: 10px;
+    font-size:18px;
+}

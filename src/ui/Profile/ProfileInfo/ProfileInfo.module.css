@@ -1,0 +1,109 @@
+.profileInfo{
+    grid-area: profileInfo;  
+}
+.myContactsAndAboutMe{
+    grid-area: myContactsAndAboutMe;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.avatar img{
+    width: 100%;
+    border: solid 1px #A7A7C1;
+}
+
+.buttonForUser{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.userInfo{
+    display:grid;
+    grid-template-areas:
+    "avatar"
+    "myContactsAndAboutMe";
+
+}
+@media (min-width: 600px) {
+	.userInfo {
+		grid-template-columns: 1fr 4fr;
+        grid-template-areas:
+            "avatar myContactsAndAboutMe";		
+    }
+    .avatar img{
+        width: 200px;
+        border: solid 1px #A7A7C1;
+    }
+    .myContactsAndAboutMe{
+        grid-area: myContactsAndAboutMe;
+        margin-right: 20px;
+        display: grid;
+        grid-template-areas:
+            "myContacts aboutMe";	
+    }
+    .buttonForUser{
+        display: block;  
+    }
+    .button{
+        width: 200px ;
+        border: solid 1px grey;
+        text-align: center;
+        background: #A7A7C1;
+        margin-top:5px;
+        height: 20px;
+        font-size:16px;
+    }
+    .myContacts div{
+        color: #A7A7C1;
+       
+        
+    }
+    .aboutMe{
+        color: #A7A7C1;
+        text-align: left;
+        grid-area: aboutMe;
+    }
+    
+}
+.spanMyContacts{
+    color: #C5C5E4;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-size:20px;
+
+}
+.myContacts div{
+    color: #A7A7C1;
+    padding:2px; 
+}
+.aboutMe{
+    color: #A7A7C1;
+    margin-left:10px;
+}
+.button{
+    width: 200px ;
+    border: solid 1px grey;
+    text-align: center;
+    background: #A7A7C1;
+    margin-top:5px;
+    height: 28px;
+    font-size:20px;
+    color: #5765B2;
+
+}
+.button:hover{
+    cursor: pointer;
+    background: #8989A3;
+    color:#4958B2;
+}
+.aboutMe div{
+ margin-bottom:10px;
+ font-size:20px;
+}
+.myContacts{
+    grid-area: myContacts;
+}
+.button a{
+    text-decoration:none;
+    color: #5765B2;
+}

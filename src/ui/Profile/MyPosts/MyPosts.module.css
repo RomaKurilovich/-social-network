@@ -1,0 +1,39 @@
+.myPosts{
+    grid-area: myPosts
+}
+.imgAddPost img{
+    width: 30px;
+    border-radius: 40%;
+    
+}
+.imgAddPost{
+    padding: 5px;
+}
+.posts{
+    margin-left:20px;
+    padding: 20px;
+    
+}
+.addPost{
+    border: solid 1px #A7A7C1;
+    margin-right: 25px;
+    margin-top:20px;
+
+}
+.headlineAddPost{
+    display: flex;
+}
+.nikNameAddPost{
+    padding: 10px;
+    font-size:18px;
+    color: #A7A7C1;
+}
+.inputArea{
+    padding:5px;
+    display: flex;
+}
+.inputArea textarea{
+    width: 90%;
+    resize: none;
+    background: #C4C7D4;
+}

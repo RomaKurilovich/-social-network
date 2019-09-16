@@ -1,0 +1,30 @@
+.header{
+    background: #171935;
+    grid-area:header;
+  
+    
+}
+.oneHeaderButton{
+    
+   padding: 3px;
+ 
+}
+.allHeaderButton{
+   margin-left:3px;
+   margin-right:3px;
+   margin-top:3px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px, 1fr));
+}
+
+.oneHeaderButton a{
+    line-height: 40px;
+    text-decoration:none;
+    color: white;
+ }
+ .oneHeaderButton img{
+     height:45px;
+     float: left;
+     margin-left:5px;
+ }

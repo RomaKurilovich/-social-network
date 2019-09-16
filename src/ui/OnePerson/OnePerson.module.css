@@ -1,0 +1,70 @@
+.divContainer{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.imgDiv{
+    margin-bottom: 20px;
+}
+.imgDiv img{
+    border-radius: 45px;
+}
+.spanUsersName{
+    margin-left: 5px;
+    margin-bottom: 14px;
+}
+
+.divContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  }
+  .oneUser{
+      margin-top: 20px;
+      background: #788dafe8;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center;
+      padding: 5px;
+      
+  }
+  .oneUser a {
+    text-decoration: none;
+    color: rgb(12, 84, 117);
+  }
+  .userName{
+      margin-top:5px;
+      margin-bottom: 5px;
+      overflow-x:hidden;
+  }
+.oneUser a:hover { color: #DE9F53; }
+
+.buttonFollow {
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.buttonFollow button {
+color: #466287;
+cursor: pointer;
+}
+.pagination{
+    margin-top:5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.footer {
+    background: #EEEEEE;
+    height: 10px;
+}
+.oneButton {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    color: #466287;
+    margin-right: 5px;
+}
+.oneButton button:hover {
+    font-size: 17px;
+    border: solid 1px  #466287;
+
+}
